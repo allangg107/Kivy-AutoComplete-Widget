@@ -1,0 +1,33 @@
+<Autocomplete>:
+    multiline: False
+    write_tab: False
+    on_text: root.give_suggestions()
+
+    font_size: 15
+    size_hint: 1, None
+    height: "30dp"
+
+
+# For demonstration purposes the BoxLayout is given
+BoxLayout:
+    orientation: 'vertical'
+
+    Label:
+        text: "Field 1:"
+        font_size: 15
+        size_hint: 1, None
+        height: "30dp"
+
+    Autocomplete:
+
+    Label:
+        text: "Field 2:"
+        font_size: 15
+        size_hint: 1, None
+        height: "30dp"
+
+    Autocomplete:
+
+    Label:
+
+
